@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <title>SGP App</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="http://www.stickpng.com/assets/images/584831f6cef1014c0b5e4aa6.png" alt="logo peugeot" width="80px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Collaborateurs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Statistiques</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Activités</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="row justify-content-end mr-3 mt-2">
+            <button class="btn btn-primary" type="submit" class="mb-3">
+                Ajouter un collaborateur
+            </button>
+        </div>
+
+    </div>
+    <h2>Les collaborateurs</h2>
+    <div class="container-fluid">
+        <form>
+            <div class="form-group row">
+                <label for="name" class="col-sm-5 col-form-label text-sm-right">Rechercher un nom ou un prénom qui commence par: </label>
+                <div class="col-sm-3">
+                    <input type="name" class="form-control" id="name">
+                </div>
+            </div>
+            <div class="form-group row">
+
+                <label for="filter" class="col-sm-5 col-form-label text-sm-right">Filtrer par département: </label>
+                <div class="col-xs-2">
+                    <select name="form-control col" id="filterByArea">
+                        <option value="all">Tous</option>
+                        <option value="compta">Comptabilité</option>
+                        <option value="rh">Ressources Humaines</option>
+                        <option value="info">Informatique</option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-primary btn-sm">Rechercher</button>
+                </div>
+                <div class="col-sm-2 form-check form-group">
+                        <input type="checkbox" class="form-check-input" id="check1">
+                        <label class="form-check-label col-sm-5 col-form-label text-sm-left" for="check1">Voir les collaborateurs désactivés</label>
+                </div>
+        </form>
+        <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                </div>
+              </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
